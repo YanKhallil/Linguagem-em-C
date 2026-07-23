@@ -48,12 +48,34 @@ int main(){
     printf("velocidade media e: %2.f\n", velocidademedia); */
 
 
+/*Questao 3: Um excêntrico comerciante cobra 15% de acréscimo para cada prestação em atraso e depois dá um desconto de 15% sobre esse valor.
+ Faça um algoritmo que solicite o valor da prestação em atraso e apresente o valor final a pagar, assim como o prejuízo do comerciante na operação.*/
+
+
+// entrada de dados da variavel prestacao
+   /* int prestacao;
+
+    printf("Digite o valor das prestacao atrasada:");
+    scanf("%d", &prestacao);
+
+// 15% desconto = 85% no total e 15% de acrescimo = 115% no total
+// adicionado 15%(multiplicador por 1.15) na prestacao e depois retirado 15%(multiplicado por 0.85) e por fim fazendo o prejuizo menos o valor final
+    int valor_final= (prestacao*1.15) * 0.85;
+    int prejuizo = prestacao - valor_final;
+
+    // conclusao e saida do resultado da prestacao
+    printf("O valor final e: %d\n", valor_final);
+    printf("O prejuizo foi de: %d", prejuizo); */
+
+
+
+
 
 //Questao 6: Faça um algoritmo que receba um número binário de 4 dígitos e em seguida converta o valor para decimal
 //  • Exemplo: O número binário é 1101 o seu equivalente em decimal é 13.
 
     // Atribuição de valores na variavel binario
-    int binario;
+    /*int binario;
 
     printf("Digite o numero binario de 4 digitos: ");
     scanf("%d", &binario);
@@ -70,7 +92,7 @@ int main(){
 
     int resultado= (Quartobinario * 8) + (Terceirobinario * 4) + (Segundobinario * 2) + (Primeirobinario * 1);
 
-    printf("O resultado do binario em numero e: %d", resultado);
+    printf("O resultado do binario em numero e: %d", resultado);*/
 
 
 
