@@ -2,8 +2,8 @@
 
 int main(){
 
-    /*Questao 1: Desenvolva um programa que simule um caixa eletrônico. O usuário deve inserir o valor que deseja sacar
-e o programa deve informar quantas notas de cada valor serão entregues (considere notas de R$100,
+    /*Questao 1: Desenvolva um programa que simule um caixa eletrÃ´nico. O usuÃ¡rio deve inserir o valor que deseja sacar
+e o programa deve informar quantas notas de cada valor serÃ£o entregues (considere notas de R$100,
 R$50, R$20 e R$10).*/
 
     /*int saque;
@@ -37,10 +37,10 @@ R$50, R$20 e R$10).*/
         printf("Nao possuimos o valor");
     } */
 
-/*QUestao 2: Faça um programa que simule uma calculadora simples. O usuário deve inserir dois números e escolher
-a operação a ser realizada (adição, subtração, multiplicação ou divisão)*/
+/*QUestao 2: FaÃ§a um programa que simule uma calculadora simples. O usuÃ¡rio deve inserir dois nÃºmeros e escolher
+a operaÃ§Ã£o a ser realizada (adiÃ§Ã£o, subtraÃ§Ã£o, multiplicaÃ§Ã£o ou divisÃ£o)*/
 
-    int primeiro_numero, segundo_numero;
+   /* int primeiro_numero, segundo_numero;
     char operacao;
 
     printf("Digite o operacao A-adicao S-subtracao M-multiplicacao D-divisao: ");
@@ -72,8 +72,63 @@ a operação a ser realizada (adição, subtração, multiplicação ou divisão)*/
             printf("Resultado da divisao: %d", divisao);
         break;
         default:
-            printf("Invalido");
+            printf("Invalido"); */
+
+
+/*Questao 3: Existem trÃªs Ã¡rvores em frente a casa de JoÃ£o, A1, A2 e A3, elas possuem as seguintes alturas,
+respectivamente, H1, H2 e H3. FaÃ§a um programa que mostre a maior e menor Ã¡rvore.*/
+
+   /* int arvore1;
+    int arvore2;
+    int arvore3;
+
+    printf("Digite o tamanho da arvore1: ");
+    scanf("%d", &arvore1);
+
+    printf("Digite o tamanho da arvore2: ");
+    scanf("%d", &arvore2);
+
+    printf("Digite o tamanho da arvore3: ");
+    scanf("%d", &arvore3);
+
+    if(arvore1 > arvore2 && arvore1> arvore3){
+            printf("tamanho da arvore1: %d\n", arvore1);
+            if(arvore2 > arvore3){
+                printf("tamanho da arvore2: %d\n", arvore2);
+                printf("tamanho da arvore3: %d\n", arvore3);
+            } if(arvore3>arvore2){
+                printf("tamanho da arvore3: %d\n", arvore3);
+                printf("tamanho da arvore2: %d\n", arvore2);
+            }
     }
+
+    if(arvore2 > arvore1 && arvore2> arvore3){
+            printf("tamanho da arvore2: %d\n", arvore2);
+            if(arvore1 > arvore3){
+                printf("tamanho da arvore1: %d\n", arvore1);
+                printf("tamanho da arvore3: %d\n", arvore3);
+            } if(arvore3>arvore1){
+                printf("tamanho da arvore3: %d\n", arvore3);
+                printf("tamanho da arvore1: %d\n", arvore1);
+            }
+    }
+
+    if(arvore3 > arvore1 && arvore3> arvore2){
+            printf("tamanho da arvore3: %d\n", arvore3);
+            if(arvore2 > arvore1){
+                printf("tamanho da arvore2: %d\n", arvore2);
+                printf("tamanho da arvore1: %d\n", arvore1);
+            } if(arvore1>arvore2){
+                printf("tamanho da arvore1: %d\n", arvore1);
+                printf("tamanho da arvore2: %d\n", arvore2);
+
+            }
+    } */
+
+
+
+
+
 
 
 
