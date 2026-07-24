@@ -127,6 +127,25 @@ respectivamente, H1, H2 e H3. Faça um programa que mostre a maior e menor árvo
 
 
 
+/* QUESTAO 5: Desenvolva um programa que recebe do usuário, o placar de um jogo de futebol (os gols de cada time)
+e informa se o resultado foi um empate, se a vitória foi do primeiro time ou do segundo time*/
+
+    /* int time1, time2;
+
+printf("Digite a quantidade de gols do primeiro time: ");
+scanf("%d", &time1);
+printf("Digite a quantidade de gols do segundo time: ");
+scanf("%d", &time2);
+
+if(time1>time2){
+    printf("VItoria do 1 Time!!");
+}else if(time2>time1){
+    printf("VItoria do 2 Time!!");
+} else
+    printf("EMPATE"); */
+
+
+
 
 
 
