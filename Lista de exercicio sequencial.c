@@ -48,8 +48,9 @@ int main(){
     printf("velocidade media e: %2.f\n", velocidademedia); */
 
 
-/*Questao 3: Um excêntrico comerciante cobra 15% de acréscimo para cada prestação em atraso e depois dá um desconto de 15% sobre esse valor.
- Faça um algoritmo que solicite o valor da prestação em atraso e apresente o valor final a pagar, assim como o prejuízo do comerciante na operação.*/
+
+/*Questao 3: Um excÃªntrico comerciante cobra 15% de acrÃ©scimo para cada prestaÃ§Ã£o em atraso e depois dÃ¡ um desconto de 15% sobre esse valor.
+ FaÃ§a um algoritmo que solicite o valor da prestaÃ§Ã£o em atraso e apresente o valor final a pagar, assim como o prejuÃ­zo do comerciante na operaÃ§Ã£o.*/
 
 
 // entrada de dados da variavel prestacao
@@ -70,11 +71,32 @@ int main(){
 
 
 
+/* QUESTAO 5: Desenvolva um programa que recebe do usuÃ¡rio, o placar de um jogo de futebol (os gols de cada time)
+e informa se o resultado foi um empate, se a vitÃ³ria foi do primeiro time ou do segundo time*/
 
-//Questao 6: Faça um algoritmo que receba um número binário de 4 dígitos e em seguida converta o valor para decimal
-//  • Exemplo: O número binário é 1101 o seu equivalente em decimal é 13.
+    /* int time1, time2;
 
-    // Atribuição de valores na variavel binario
+printf("Digite a quantidade de gols do primeiro time: ");
+scanf("%d", &time1);
+printf("Digite a quantidade de gols do segundo time: ");
+scanf("%d", &time2);
+
+if(time1>time2){
+    printf("VItoria do 1 Time!!");
+}else if(time2>time1){
+    printf("VItoria do 2 Time!!");
+} else
+    printf("EMPATE"); */
+
+
+
+
+
+
+//Questao 6: FaÃ§a um algoritmo que receba um nÃºmero binÃ¡rio de 4 dÃ­gitos e em seguida converta o valor para decimal
+//  â€¢ Exemplo: O nÃºmero binÃ¡rio Ã© 1101 o seu equivalente em decimal Ã© 13.
+
+    // AtribuiÃ§Ã£o de valores na variavel binario
     /*int binario;
 
     printf("Digite o numero binario de 4 digitos: ");
@@ -87,7 +109,7 @@ int main(){
     int Segundobinario = binario%1000%100/10;
     int Primeirobinario = binario%1000%100%10;
 
-    // multiplicando cada unidade pela potencia de suas posiçoes da direita para esquerda e depois somando tudo
+    // multiplicando cada unidade pela potencia de suas posiÃ§oes da direita para esquerda e depois somando tudo
     // EX: 1101 = (1 * 2 elevado a 3) + (1 * 2 elevado a 2) + (0 * 2 elevado a 1) + (1 * 2 elevado a 0)
 
     int resultado= (Quartobinario * 8) + (Terceirobinario * 4) + (Segundobinario * 2) + (Primeirobinario * 1);
@@ -101,11 +123,11 @@ int main(){
  //Questao 15
 /*
 
-Faça um algoritmo que dado um número de conta corrente com três dígitos, retorne o seu dígito verificador, o qual é calculado da seguinte maneira:
-• Exemplo: 125
-Somar o número da conta com o seu inverso: 125+ 521 = 646
-Multiplicar cada dígito pela sua ordem posicional e somar estes resultados: 6 4 6 1 2 3 6x1   + 4x2   + 6x3 = 32
-O último dígito desse resultado é o dígito verificador da conta (32®2)
+FaÃ§a um algoritmo que dado um nÃºmero de conta corrente com trÃªs dÃ­gitos, retorne o seu dÃ­gito verificador, o qual Ã© calculado da seguinte maneira:
+â€¢ Exemplo: 125
+Somar o nÃºmero da conta com o seu inverso: 125+ 521 = 646
+Multiplicar cada dÃ­gito pela sua ordem posicional e somar estes resultados: 6 4 6 1 2 3 6x1   + 4x2   + 6x3 = 32
+O Ãºltimo dÃ­gito desse resultado Ã© o dÃ­gito verificador da conta (32Â®2)
 
 
 */
@@ -121,43 +143,43 @@ O último dígito desse resultado é o dígito verificador da conta (32®2)
     // % -> Sempre vai pegar o resultado em RESTO
    // / -> Sempre vai pegar o resultado normal
 
-   // Simplesmente pegando o número de acordo com as casas decimais
+   // Simplesmente pegando o nÃºmero de acordo com as casas decimais
     centena  = numero_conta / 100;
     decimal = (numero_conta % 100) / 10;
     unidade = numero_conta % 100 % 10;
 
     printf("centena: %d\n",centena);
     printf("Decimal: %d\n\n",decimal);
-    printf("Unidade é: %d\n\n",unidade);
+    printf("Unidade Ã©: %d\n\n",unidade);
 
     // Invertendo
     numero_conta_inverso = (unidade * 100) + (decimal * 10) + centena;
 
 
 
-    // Somando a inversão_conta com o número_conta
+    // Somando a inversÃ£o_conta com o nÃºmero_conta
     soma_agencia = numero_conta + numero_conta_inverso;
 
 
-    printf("A soma com seu número inverso é: %d\n\n",soma_agencia);
+    printf("A soma com seu nÃºmero inverso Ã©: %d\n\n",soma_agencia);
 
 
-    // Mesmo algoritmo para pegar os números de acordo com casas decimais
+    // Mesmo algoritmo para pegar os nÃºmeros de acordo com casas decimais
     centena_multiplicar  = 1* (soma_agencia / 100);
     decimal_multiplicar = 2* ((soma_agencia % 100) / 10);
     unidade_multiplicar = 3* ((soma_agencia % 100) % 10);
 
-    // Somando de acordo com a multiplicação de cada casa decimal
+    // Somando de acordo com a multiplicaÃ§Ã£o de cada casa decimal
     digito_verificador = centena_multiplicar + decimal_multiplicar + unidade_multiplicar;
-    // Último verificador, de acordo com a ultima alternativa da 15° questão
+    // Ãšltimo verificador, de acordo com a ultima alternativa da 15Â° questÃ£o
     int ultimo_digito = digito_verificador % 10;
 
     //print, mostrando o resultado do ultimo verificador
-    printf ("O digito de verificador seu é: %d\n\n",digito_verificador);
-    printf ("O digito de verificador seu é: %d\n\n",ultimo_digito);
+    printf ("O digito de verificador seu Ã©: %d\n\n",digito_verificador);
+    printf ("O digito de verificador seu Ã©: %d\n\n",ultimo_digito);
 
-    //Mostrando a geração da conta corrente:
-    printf("Então, a sua conta corrente é: %d%d-%d\n\n",numero_conta,soma_agencia,ultimo_digito); */
+    //Mostrando a geraÃ§Ã£o da conta corrente:
+    printf("EntÃ£o, a sua conta corrente Ã©: %d%d-%d\n\n",numero_conta,soma_agencia,ultimo_digito); */
 
 
         return 0;
