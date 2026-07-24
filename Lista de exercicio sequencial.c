@@ -70,23 +70,19 @@ int main(){
 
 
 
+/* Questao 4: Uma amiga quer colocar cerca de arame (tipo tela) no seu terreno (comprimento c e largura l) em Paricatuba/Iranduba.
+ Faça um programa para ler as dimensões do terreno, bem como o preço do metro de cerca de arame. Imprima o custo para cercar o terreno dela. */
 
-/* QUESTAO 5: Desenvolva um programa que recebe do usuário, o placar de um jogo de futebol (os gols de cada time)
-e informa se o resultado foi um empate, se a vitória foi do primeiro time ou do segundo time*/
+ /*int largura, comprimento;
+ int metro_arame = 27;
 
-    /* int time1, time2;
+ printf("digite a largura, em M, do terreno: ");
+ scanf("%d",&largura);
+ printf("digite o comprimento, em M, do terreno: ");
+ scanf("%d",&comprimento);
 
-printf("Digite a quantidade de gols do primeiro time: ");
-scanf("%d", &time1);
-printf("Digite a quantidade de gols do segundo time: ");
-scanf("%d", &time2);
+ printf("O custo para cercar o terreno e: %d", (largura*comprimento)* metro_arame); */
 
-if(time1>time2){
-    printf("VItoria do 1 Time!!");
-}else if(time2>time1){
-    printf("VItoria do 2 Time!!");
-} else
-    printf("EMPATE"); */
 
 
 
