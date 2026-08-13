@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1786595783 source:c:\users\yan\documents\c\atp_exercicio_fixacao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1786591038 source:c:\users\yan\documents\c\atp_exercicio_fixacao\questoes.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
