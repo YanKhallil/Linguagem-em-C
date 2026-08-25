@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main() {
+   //Declaracao de variaveis
+   int codigo;
+   float preco;
+
+   //Entrada de dados
+   printf("Digite o codigo do produto: ");
+   scanf("%d", &codigo);
+   printf("Digite o preco do produto: ");
+   scanf("%f", &preco);
+
+   //Processamento
+   printf("\nPreco: R$ %.2f\n", preco);
+   printf("Procedencia: ", codigo);
+
+   switch(codigo){
+        case 1:
+            printf("Sul");
+            break;
+        case 2:
+            printf("Norte\n");
+            break;
+        case 3:
+            printf("Leste\n");
+            break;
+        case 4:
+            printf("Oeste\n");
+            break;
+        case 5:
+        case 6:
+            printf("Nordeste\n");
+            break;
+        case 7:
+        case 8:
+        case 9:
+            printf("Sudeste");
+            break ;  
+        default:
+        if(codigo >= 10 && codigo<=20){
+            printf("Centro-Oeste");
+        } else if(codigo >= 25 && codigo <= 30){
+            printf("Nordeste");
+        } else{
+            printf("Importado");
+        }
+   }
+
+    return 0;
+}
