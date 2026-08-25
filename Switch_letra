@@ -1,0 +1,44 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   //Declaracao de variaveis
+   int numero1, numero2;
+   char operador;
+   int resultado;
+
+   //Entrada de dados
+   printf("Digite primeiro numero: ");
+   scanf("%d", &numero1);
+   printf("Digite o segundo numero: ");
+   scanf("%d", &numero2);
+   printf("Digite o operador( * + - /): ");
+   scanf(" %c", &operador); // problema no %c tem que deixar um espaco
+
+   switch(operador){
+        case '+':
+            resultado = numero1 + numero2;
+            break;
+        case '-':
+            resultado = numero1 - numero2;
+            break;
+        case '*':
+            resultado = numero1 * numero2;
+            break;
+        case '/':
+            resultado = numero1 / numero2;
+            if(numero2 == 0){
+                printf("Operacao invalida");
+            }
+            break;
+        default: 
+            printf("Operador invalido");
+   }
+
+   printf("resultado: %d %c %d = %d", numero1, operador, numero2, resultado);
+
+   //Processamento
+   
+
+    return 0;
+}
