@@ -47,7 +47,22 @@ ou sem incremento negativo
         i--;
          
     }*\
-    
+
+\* mais de uma
+#include <stdio.h>
+
+int main(void) {
+    int esquerda;
+    int direita;
+
+    for (esquerda = 1, direita = 5;esquerda <= 5;esquerda++, direita--) {
+        printf("esquerda = %d, direita = %d\n",
+               esquerda, direita);
+    }
+
+    return 0;
+}
+*\
 
     return 0;
 }
