@@ -8,9 +8,17 @@ int main() {
          acum += 1;
     }
 
-    for(;;){
+ \*   for(;;){
         printf("laço infinito");
     }
+ou
+    int acum = 0;
+    int i = 0;
+    for (; i < 10; i++){
+
+         printf("contador e: %d\n", i);
+         acum += 1;
+    }*\
     
 
     return 0;
