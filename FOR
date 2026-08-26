@@ -39,7 +39,14 @@ ou sem incremrento positivo
         i++;
          
     }
-    *\
+    
+ou sem incremento negativo
+    int i;
+    for (i = 5;i>=1;){
+        printf("%d", i);
+        i--;
+         
+    }*\
     
 
     return 0;
