@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int acum = 0;
+    for (int i = 0; i < 10; i++){
+
+         printf("contador e: %d\n", i);
+         acum += 1;
+    }
+
+    for(;;){
+        printf("laço infinito");
+    }
+    
+
+    return 0;
+}
