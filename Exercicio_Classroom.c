@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+BURRO
 int main(){
     //Declaracao de variaveis
     float valor_produto, valor_de_entrada = 0, saldo_devedor = 0, parcela = 0; //incializacao
@@ -19,3 +19,6 @@ int main(){
 
 return 0;
 }
+
+
+# Tá tudo errado, nã t´´a certo, não faz sentido
