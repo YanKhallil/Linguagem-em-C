@@ -1,5 +1,5 @@
 #include <stdio.h>
-BURRO
+// Foi removido a mensagem ofensiva
 int main(){
     //Declaracao de variaveis
     float valor_produto, valor_de_entrada = 0, saldo_devedor = 0, parcela = 0; //incializacao
@@ -21,4 +21,4 @@ return 0;
 }
 
 
-# Tá tudo errado, nã t´´a certo, não faz sentido
+// Resolvido esse problema
