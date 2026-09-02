@@ -12,5 +12,15 @@ int main(){
     }
     printf("resultado: %.2f\n", s);
 
+    /* 
+    double = 0;
+    for(int i = 1, j=1; i <= 99; i+=2, j++){
+        s = s+(double)i/j;
+    }
+
+    printf("O valor da soma e: %.6lf\n", S);
+    
+    */
+
     return 0;
 }
