@@ -5,7 +5,7 @@ int main(){
     double s = 0.0;
 
     for(int i = 1;i <= 10;i++){
-        double termo = (double)1/(i*i);
+        double termo = (double)i/(i*i);
 
         if(i % 2 != 0){
             s += termo;
