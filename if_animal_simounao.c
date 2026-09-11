@@ -40,6 +40,13 @@ int main(){
             }
 
         }
+        printf("Voador?");
+        scanf("%d", &opcao);
+        if(opcao == 1){
+            printf("Seu animal e um Morcego");
+        } else{
+            printf("Seu animal e Aquatico e uma Baleia");
+        }
 
     }
     // Ave⁷
@@ -47,14 +54,39 @@ int main(){
         printf("Seu animal então é ave?\n1.Sim\n2.Não");
         scanf("%d",&opcao);
         if(opcao == 1){
-            // Processamento para perguntas de ave
+            printf("Nao-voadora?");
+            scanf("%d", &opcao);
+            if(opcao == 1){
+                printf("Tropical?");
+                scanf("%d", &opcao);
+                if(opcao ==1){
+                    printf("Avestruz");
+                } else {
+                    printf("Seu animal e polar e um Pinguim");
+                }
+            } else {
+                printf("Nadadora?");
+                scanf("%d", &opcao);
+                if(opcao == 1){
+                    printf("Seu animal e um Pato");
+                } else {
+                    printf("Seu animal e ave de rapina e uma Aguia");
+                }
+                
+            }
         }
         else{
             // Repteis
             printf("Seu animal então é repteis?\n1.Sim\n2.Não");
             scanf("%d",&opcao);
             if(opcao == 1){
-                // Processamento para pergunta repteis
+                printf("Com casco?");
+                scanf("%d", &opcao);
+                if(opcao == 1){
+                    printf("Tartaruga");
+                } else {
+                    printf("Seu animal e carnivoro e um Crocodilo");
+                }
             }
             else{
                 printf("QUE ANIMAL É ESSE QUE Tá querendo colocar?");
