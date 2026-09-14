@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+/*b) Faça umprograma em C para verificar se um número lido é número perfeito. Número
+perfeito é aquele que é igual a soma dos seus divisores. Por exemplo: 6 = 1 + 2+ 3*/
 int main() {
     int num;
     int soma_divisores = 0;
