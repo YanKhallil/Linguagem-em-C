@@ -26,3 +26,31 @@ int main() {
     printf("\n");
     return 0;
 }
+/*#include <stdio.h>
+
+int main() {
+    int n;
+
+    int t1 = 1, t2 = 1, proximo;
+
+    printf("Digite a quantidade de termos (n): ");
+    scanf("%d", &n);
+    
+    printf("Os %d primeiros termos da sequencia de Fibonacci sao:\n", n);
+
+    for (int i = 1; i <= n; i++) {
+        if (i == 1) {
+            printf("%d", t1);
+        } else if (i == 2) {
+            printf(" %d", t2);
+        } else {
+            proximo = t1 + t2;
+            t1 = t2;
+            t2 = proximo;
+            printf(" %d", proximo);
+        }
+    }
+
+    printf("\n");
+    return 0;
+}*/
