@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*a) Faça um programa em C que dado um numero n de entrada calcule o seu fatorial*/
 int main() {
     int n;
 
