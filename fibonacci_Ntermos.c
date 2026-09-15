@@ -26,6 +26,33 @@ int main() {
     printf("\n");
     return 0;
 }
+
+//OU
+
+/*#include <stdio.h>
+
+int main(){
+    int termo1 = 0;
+    int termo2 = 1;
+    int termo3 = 0;
+    int ntermos = 0;
+
+    printf("Fibonacci\n");
+    printf("DIgite os n termos que deseja: ");
+    scanf("%d", &ntermos);
+
+    printf("%d\n%d\n", termo1, termo2);
+    for(int i = 3; i<=ntermos; i++){
+        termo3 = termo1 + termo2;
+        termo1 = termo2;
+        termo2 = termo3;
+        printf("%d\n", termo3);
+    }
+    return 0;
+}*/
+
+//OU
+
 /*#include <stdio.h>
 
 int main() {
