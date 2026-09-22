@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main(){
-    //Declaração de variável
+    //DeclaraÃ§Ã£o de variÃ¡vel
     int A;
 
     //Entrada de dados
