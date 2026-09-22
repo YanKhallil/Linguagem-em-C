@@ -2,7 +2,7 @@
 #include<math.h>
 
 int main(){
-/*a) Construa um programa em C que verifique se um numero fornecido pelo usu·rio È primo ou n„o*/
+/*a) Construa um programa em C que verifique se um numero fornecido pelo usu√°rio √© primo ou n√£o*/
     //declaracao de variaveis
  /*   int num;
     int cont = 0;
