@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <locale.h>
 
 //protótipos das funções
 void exibirTitulo();
@@ -14,17 +15,19 @@ int lerOpcao();
 
 //função principal
 int main(){
+    setlocale(LC_ALL, "Portuguese");
+
     int opcao;
     double resultado, raio, cateto1, cateto2, base, expoente,
 numero, graus, radianos;
 
     exibirTitulo();
     do{
-        printf("      MENU DE OPCOES\n");
+        printf("      MENU DE OPÇÔES\n");
         printf("---------------------------\n");
-        printf("1 - Calcular área do círculo\n");
+        printf("1 - Calcular area do circulo\n");
         printf("2 - Calcular hipotenusa\n");
-        printf("3 - Calcular potência\n");
+        printf("3 - Calcular potencia\n");
         printf("4 - Calcular raiz quadrada\n");
         printf("5 - Calcular seno\n");
         printf("0 - Sair\n");
@@ -32,7 +35,7 @@ numero, graus, radianos;
         opcao = lerOpcao();
         switch(opcao){
             case 1:
-                printf("Digite o raio do círculo: ");
+                printf("Digite o raio do circulo: ");
                 scanf("%lf", &raio);
                 resultado = calcularAreaCirculo(raio);
                 exibirResultado(resultado);
@@ -61,7 +64,7 @@ numero, graus, radianos;
                     resultado = calcularRaizQuadrada(numero);
                     exibirResultado(resultado);
                 }else{
-                    printf("Erro: Não é possível calcular a raiz quadrada de um número negativo.\n");
+                    printf("Erro: Nao e possível calcular a raiz quadrada de um número negativo.\n");
                 }
                 break;
             case 5:
@@ -96,14 +99,14 @@ int lerOpcao() {
 
     int opcao;
 
-    printf("Escolha uma opcao: ");
+    printf("Escolha uma opção: ");
     scanf("%d", &opcao);
 
     return opcao;
 }
 
 double calcularAreaCirculo(double raio){
-    return M_PI * pow(raio, 2);
+    return 3.14 * pow(raio, 2);
 }
 
 double calcularHipotenusa(double cateto1, double cateto2){
@@ -119,7 +122,7 @@ double calcularRaizQuadrada(double numero){
 }
 
 double converterGrausParaRadianos(double graus){
-    return graus * (M_PI / 180);
+    return graus * (3.14 / 180);
 }
 
 double calcularSeno(double radianos){
